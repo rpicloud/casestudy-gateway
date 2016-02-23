@@ -3,4 +3,4 @@ spring:
     name: gateway
   cloud:
     config:
-      uri: http://casestudy-config-service:8888
+      uri: http://casestudy-config-service.default:8888

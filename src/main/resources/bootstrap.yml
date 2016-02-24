@@ -3,7 +3,7 @@ spring:
     name: gateway
   cloud:
     config:
-      uri: http://casestudy-config-service.default:8888
+      uri: http://192.168.1.11:8888
 ---
 spring:
   profiles: development
